@@ -1,0 +1,387 @@
+/* FULL-WIDTH Shortcode */
+.basic_block_rs.respondo_weather {background-color: #727782; color: #ffffff; border: 0 none; border-radius: 0; -moz-border-radius: 0; -webkit-border-radius: 0;display: block;font-size: 13px;line-height: 20px;margin: 0 0 10px;overflow: auto;padding: 20px;}
+a.weather_dropdown {background-color: rgba(0, 0, 0, 0.1); display: block; padding: 6px; width: 20px; height: 13px; float: left; margin-bottom: 10px; cursor:pointer;}
+a.weather_dropdown:hover {background: rgba(0, 0, 0, 0.2);}
+a.weather_dropdown span.icon-bar {display: block; overflow: visible; width: 20px; height: 2px; background-color: rgb(255, 255, 255); margin: 0px 0px 4px;}
+span.rw_location {font-family: "Open Sans"; line-height: 26px; margin: 0px 0px 0px 5px; font-size: 14px; font-weight: lighter;}
+.rw_locations ul#rw_locations_section {margin-left: 37px; padding: 0; position: absolute; z-index: 999;}
+.rw_locations ul#rw_locations_section li {list-style: none outside none; margin: 0; padding: 3px 9px; background: rgba(0, 0, 0, 0.1);}
+.rw_locations ul#rw_locations_section li a {color: #ffffff;}
+.rw_locations ul#rw_locations_section li:hover {background: rgba(255, 255, 255, 0.1); cursor:pointer;}
+.rw_locations ul#rw_locations_section li a:hover {text-decoration: none;}
+.rw_span6.rw_scleft {display: block; margin: 0px;}
+.rw_span6.rw_scleft span.rw_title {text-align: center; font-size: 24px; font-family: "Open Sans"; font-weight: lighter; display: block; width: 100%; padding: 12px 0px; background: none repeat scroll 0px 0px rgba(255, 255, 255, 0.1);}
+.rw_span6.rw_scleft .rw_span6.daily {margin: 0px; text-align: center;}
+.rw_span6.rw_scleft .rw_span6.daily .rw_temp {font-size: 50px; font-family: "Open Sans"; font-weight: lighter; line-height: 130px; width: 100%; display: block;}
+.rw_span6.rw_scleft .rw_span6.daily .rw_dailydet {font-size: 16px; font-family: "Open Sans"; font-weight: lighter; display: block; width: auto; text-align: left; margin: 0px 0px 0px 25px; line-height: 27px;}
+.rw_span6.rw_scleft .rw_span6.rw_dailydet2 {text-align: center; float:right !important;}
+.rw_span6.rw_scleft .rw_span6.rw_dailydet2 img {float: none; width: 100px; max-width: 102px; margin: 20px 0px 17px;}
+span.rw_srss {font-family: "Open Sans"; font-weight: lighter; display: block; background: none repeat scroll 0px 0px rgba(255, 255, 255, 0.1); font-size: 13px; padding: 10px 0px; text-align: center; width: 100%; height: 27px;}
+.rw_span6.rw_sunrise, .rw_span6.rw_sunset {margin: 0px; line-height: 30px;}
+.rw_span6.rw_sunrise img, .rw_span6.rw_sunset img {margin: -5px 3px 0px 0px !important; width: auto !important;}
+.rw_span6.rw_scright {}
+.rw_daily3 {margin: 15px 0 0; padding: 11px 0; text-align: center; font-size: 24px; font-family: "Open Sans"; font-weight: lighter; display: block; width: 100%; background-color: rgba(0, 0, 0, 0.1);}
+.rw_daily3:first-child {margin: 0;}
+.rw_daily3 .rw_span6.rw_3date {text-align: left; font-size: 16px; padding: 0 0 0 10px;}
+.rw_daily3 .rw_span6.rw_3date span {clear: both; width: 100%; display: block; line-height: 24px;}
+.rw_daily3 .rw_span6.rw_3date small {text-align: left; font-size: 14px;}
+.rw_span6.rw_3dailytemp {font-size: 16px; line-height: 46px; text-align: right; padding: 0 10px 0 0;}
+.rw_span6.rw_3dailytemp img {width: 42px; float: right; margin: 2px 0px 2px 16px;}
+.respondo-weather-img{border: none !important;box-shadow: none !important;}
+
+
+/* Float Styling */
+.basic_block_rs.respondo_weather.full-width {float: none !important; margin: 0 0 10px !important;}
+.basic_block_rs.respondo_weather.none {float: none;}
+.basic_block_rs.respondo_weather.left {float: left; margin-right: 10px;}
+.basic_block_rs.respondo_weather.right {float: right; margin-left:10px;}
+
+
+/* FULL-WIDTH Shortcode */
+
+
+/* ONE-HALF Shortcode */
+.basic_block_rs.respondo_weather.one-half {width: 50%;}
+.basic_block_rs.respondo_weather.one-half .rw_span6.rw_scleft {width: 100%;}
+.basic_block_rs.respondo_weather.one-half .rw_span6.rw_scright {width: 100%; margin:15px 0 0;}
+
+
+/* ONE-THIRD Shortcode */
+.basic_block_rs.respondo_weather.one-third {width: 33%;}
+.basic_block_rs.respondo_weather.one-third .rw_span6.rw_scleft {width: 100%;}
+.basic_block_rs.respondo_weather.one-third .rw_span6.rw_scright {width: 100%; margin:15px 0 0;}
+.basic_block_rs.respondo_weather.one-third span.rw_srss {height: 42px; font-size:14px;}
+.basic_block_rs.respondo_weather.one-third .rw_span6.rw_sunrise, .basic_block_rs.respondo_weather.one-third .rw_span6.rw_sunset {margin: 0 !important; width: 50% !important;}
+.basic_block_rs.respondo_weather.one-third .rw_span6.rw_sunrise img, .basic_block_rs.respondo_weather.one-third .rw_span6.rw_sunset img {clear: both; display: block; float: none; margin: -5px auto 5px !important; width: 30px !important;}
+
+
+/* ONE-QUARTER Shortcode */
+.basic_block_rs.respondo_weather.one-quarter {width: 25%;}
+.basic_block_rs.respondo_weather.one-quarter .rw_span6.rw_scleft {width: 100%;}
+.basic_block_rs.respondo_weather.one-quarter .rw_span6.rw_scright {width: 100%; margin:15px 0 0;}
+.basic_block_rs.respondo_weather.one-quarter .rw_span6.rw_scleft .rw_span6.daily .rw_temp {font-size: 40px;}
+.basic_block_rs.respondo_weather.one-quarter .rw_span6.rw_scleft .rw_span6.rw_dailydet2 img {width: 80px;}
+.basic_block_rs.respondo_weather.one-quarter .rw_span6.rw_scleft .rw_span6.daily .rw_dailydet {margin: 0 0 0 15px;}
+.basic_block_rs.respondo_weather.one-quarter .rw_span6.rw_sunrise, .basic_block_rs.respondo_weather.one-quarter .rw_span6.rw_sunset {margin: 0 !important; width: 100% !important; float: left;}
+.basic_block_rs.respondo_weather.one-quarter span.rw_srss {height: 50px;}
+.basic_block_rs.respondo_weather.one-quarter .rw_daily3 .rw_span6.rw_3date {font-size: 14px; width: 40%;}
+.basic_block_rs.respondo_weather.one-quarter .rw_daily3 .rw_span6.rw_3date small {font-size: 12px;}
+.basic_block_rs.respondo_weather.one-quarter .rw_span6.rw_3dailytemp {float: right !important; font-size: 13px; width: 55% !important;}
+.basic_block_rs.respondo_weather.one-quarter .rw_span6.rw_3dailytemp img {margin: 8px 0 8px 10px; width: 30px;}
+
+
+/* Sidebar Styling */
+aside.widget_weather_spark_pro .rw_row-fluid .rw_span6 {width:100%;}
+aside.widget_weather_spark_pro .rw_span6.rw_scleft .rw_span6.daily {float: left; margin: 0; text-align: center; width: 50%;}
+aside.widget_weather_spark_pro .rw_span6.rw_scleft .rw_span6.daily .rw_temp {float: left; font-size: 30px; line-height: 70px; width: 100%;}
+aside.widget_weather_spark_pro .rw_span6.rw_scleft .rw_span6.daily .rw_dailydet {float: left; font-size:13px; margin: 15px 0 12px; text-align: center; width: 100%; line-height:22px;}
+aside.widget_weather_spark_pro .rw_span6.rw_scleft .rw_span6.rw_dailydet2 {float: right !important; text-align: center; width: 50%; margin:0;}
+aside.widget_weather_spark_pro .rw_span6.rw_scleft .rw_span6.rw_dailydet2 img {float: none; margin: 10px auto 0; width: 50%;}
+aside.widget_weather_spark_pro span.rw_srss {background: none; font-size: 11px; float: right; margin: 10px 0 0; padding: 0; width: 100%;}
+aside.widget_weather_spark_pro .rw_span6.rw_sunrise, aside.widget_weather_spark_pro .rw_span6.rw_sunset {background: none repeat scroll 0 0 rgba(255, 255, 255, 0.1); float: left; margin: 0; width: 100%; padding:5px 0 0; line-height:22px;}
+aside.widget_weather_spark_pro .rw_span6.rw_sunrise img, aside.widget_weather_spark_pro .rw_span6.rw_sunset img {margin: 0 5px 0 0 !important; width: 20px !important;}
+aside.widget_weather_spark_pro .rw_span6.rw_scright {margin: 15px 0 0;}
+aside.widget_weather_spark_pro .rw_daily3 .rw_span6.rw_3date {width: 60%; float: left;}
+aside.widget_weather_spark_pro .rw_span6.rw_3dailytemp {font-size: 12px; line-height: 26px; width:40% !important; margin:0 !important; float:right !important;}
+aside.widget_weather_spark_pro .rw_span6.rw_3dailytemp img {display: none;}
+aside.widget_weather_spark_pro .rw_daily3 .rw_span6.rw_3date small {font-size:12px;}
+
+
+
+@media screen and (max-width: 1199px) {
+	.basic_block_rs.respondo_weather.full-width .rw_row-fluid .rw_span6 {width: 48.93617021276595%; *width: 48.88297872340425%;}
+	.basic_block_rs.respondo_weather.one-half .rw_span6.rw_scleft, .basic_block_rs.respondo_weather.one-third .rw_span6.rw_scleft, .basic_block_rs.respondo_weather.one-quarter .rw_span6.rw_scleft {width: 100% !important;}
+	.basic_block_rs.respondo_weather.one-half .rw_span6.rw_scright, .basic_block_rs.respondo_weather.one-third .rw_span6.rw_scright, .basic_block_rs.respondo_weather.one-quarter .rw_span6.rw_scright {width: 100% !important; margin:15px 0 0 !important;}
+	.rw_span6.rw_scleft .rw_span6.daily, .rw_span6.rw_scleft .rw_span6.rw_dailydet2 {float: left; width: 50%; margin:0;}
+	.basic_block_rs.respondo_weather.one-half .rw_span6.rw_sunrise, .basic_block_rs.respondo_weather.one-half .rw_span6.rw_sunset {margin: 0 !important; width: 50% !important;}
+	.basic_block_rs.respondo_weather.one-half .rw_daily3 .rw_span6.rw_3date, .basic_block_rs.respondo_weather.one-third .rw_daily3 .rw_span6.rw_3date, .basic_block_rs.respondo_weather.one-quarter .rw_daily3 .rw_span6.rw_3date {float: left; padding: 0 0 0 10px; width: 40%;}
+	.basic_block_rs.respondo_weather.one-half .rw_span6.rw_3dailytemp, .basic_block_rs.respondo_weather.one-third .rw_span6.rw_3dailytemp, .basic_block_rs.respondo_weather.one-quarter .rw_span6.rw_3dailytemp {float: right !important; margin: 0 !important; padding: 0 10px 0 0; width: 55% !important;}
+	aside.widget_weather_spark_pro .rw_span6.rw_scleft .rw_span6.daily, aside.widget_weather_spark_pro .rw_span6.rw_scleft .rw_span6.rw_dailydet2 {width: 50%;}
+}
+@media screen and (max-width: 1045px) {
+}
+@media screen and (max-width: 980px) {
+	.basic_block_rs.respondo_weather.one-third .rw_span6.rw_scleft .rw_span6.daily .rw_dailydet, .basic_block_rs.respondo_weather.one-quarter .rw_span6.rw_scleft .rw_span6.daily .rw_dailydet {margin: 15px 0 0 15px;}
+	.basic_block_rs.respondo_weather.one-third .rw_span6.rw_scleft .rw_span6.daily .rw_temp, .basic_block_rs.respondo_weather.one-quarter .rw_span6.rw_scleft .rw_span6.daily .rw_temp {font-size: 36px;}
+	.basic_block_rs.respondo_weather.one-third .rw_span6.rw_scleft .rw_span6.daily .rw_dailydet, .basic_block_rs.respondo_weather.one-quarter .rw_span6.rw_scleft .rw_span6.daily .rw_dailydet {margin: 0px 0 0 15px;}
+	.basic_block_rs.respondo_weather.one-quarter .rw_daily3 {padding: 7px 0;}
+	.basic_block_rs.respondo_weather.one-quarter .rw_daily3 .rw_span6.rw_3date {padding: 2px 0 0 3%; width: 40% !important}
+	.basic_block_rs.respondo_weather.one-quarter .rw_span6.rw_3dailytemp {line-height: 24px; text-align:center;}
+	.basic_block_rs.respondo_weather.one-quarter .rw_span6.rw_3dailytemp img {display: block; float: none; margin: 0 auto; width: 30px;}
+	.basic_block_rs.respondo_weather.one-quarter .rw_span6.rw_sunrise, .basic_block_rs.respondo_weather.one-quarter .rw_span6.rw_sunset {font-size: 12px;}
+	.basic_block_rs.respondo_weather.one-quarter .rw_span6.rw_sunrise img, .rw_span6.rw_sunset img {width: 25px !important;}
+}
+@media screen and (max-width: 979px) {
+	.rw_row-fluid [class*="rw_span"]:first-child {margin-left: 0 !important;}
+	.basic_block_rs.respondo_weather.full-width span.rw_srss {font-size: 12px;}
+	.basic_block_rs.respondo_weather.full-width .rw_span6.rw_sunrise img, .basic_block_rs.respondo_weather.full-width .rw_span6.rw_sunset img {margin: -5px 2px 0 0 !important; width: 25px !important;}
+	.basic_block_rs.respondo_weather.one-half .rw_daily3 .rw_span6.rw_3date, .basic_block_rs.respondo_weather.one-third .rw_daily3 .rw_span6.rw_3date {padding: 0 0 0 3%; width: 40% !important;}
+	.basic_block_rs.respondo_weather.one-half .rw_span6.rw_3dailytemp, .basic_block_rs.respondo_weather.one-third .rw_span6.rw_3dailytemp {padding: 0 3% 0 0; width: 55% !important; font-size:14px;}
+	.basic_block_rs.respondo_weather.one-third .rw_span6.rw_scleft .rw_span6.daily .rw_temp {font-size: 46px;}
+	aside.widget_weather_spark_pro .rw_span6.rw_scleft, aside.widget_weather_spark_pro .rw_span6.rw_scright {width: 100% !important;}
+	aside.widget_weather_spark_pro .rw_span6.rw_sunrise, aside.widget_weather_spark_pro .rw_span6.rw_sunset {width: 100% !important;}
+}
+@media screen and (min-width: 361px) and (max-width: 899px) {
+	aside.widget_weather_spark_pro .rw_span6.rw_scleft .rw_span6.daily, aside.widget_weather_spark_pro .rw_span6.rw_scleft .rw_span6.rw_dailydet2 {width: 100% !important;}
+	aside.widget_weather_spark_pro .rw_span6.rw_scleft .rw_span6.daily .rw_temp {float: left; font-size: 40px; line-height: 50px; margin-top: 7px; width: 100%;}
+	aside.widget_weather_spark_pro .rw_span6.rw_scleft .rw_span6.rw_dailydet2 img {display: none;}
+	aside.widget_weather_spark_pro .rw_span6.rw_scleft .rw_span6.daily .rw_dailydet {margin-bottom: 0;}
+	aside.widget_weather_spark_pro .rw_daily3 .rw_span6.rw_3date {float: left; padding: 0; text-align: center; width: 100% !important;}
+	aside.widget_weather_spark_pro .rw_span6.rw_3dailytemp { margin: 0 !important; padding: 0; text-align: center; width: 100% !important;}
+	aside.widget_weather_spark_pro .rw_daily3 {padding: 5px 0 0;}
+	aside.widget_weather_spark_pro .rw_span6.rw_scleft .rw_span6.rw_dailydet2 {display: none;}
+}
+@media screen and (max-width: 814px) {
+	.basic_block_rs.respondo_weather.full-width span.rw_srss {font-size: 14px; height:35px;}
+	.basic_block_rs.respondo_weather.full-width .rw_span6.rw_scleft .rw_span6.rw_dailydet2 img {margin: 19px 0 15px;}
+	.basic_block_rs.respondo_weather.full-width .rw_daily3 {padding: 12px 0;}
+	.basic_block_rs.respondo_weather.full-width .rw_span6.rw_sunrise img, .basic_block_rs.respondo_weather.full-width .rw_span6.rw_sunset img {clear: both; display: block; margin: -5px auto 0 !important; width: 30px !important;}
+	.basic_block_rs.respondo_weather.one-half .rw_daily3 .rw_span6.rw_3date, .basic_block_rs.respondo_weather.one-third .rw_daily3 .rw_span6.rw_3date, .basic_block_rs.respondo_weather.one-quarter .rw_daily3 .rw_span6.rw_3date {width: 43% !important;}
+	.basic_block_rs.respondo_weather.one-half .rw_span6.rw_3dailytemp img, .basic_block_rs.respondo_weather.one-third .rw_span6.rw_3dailytemp img, .basic_block_rs.respondo_weather.one-quarter .rw_span6.rw_3dailytemp img {margin: 7px 0 7px 10px; width: 32px;}
+	.basic_block_rs.respondo_weather.one-third span.rw_srss, .basic_block_rs.respondo_weather.one-quarter span.rw_srss {font-size: 12px;}
+}
+@media screen and (max-width: 767px) {
+	.basic_block_rs.respondo_weather.full-width .rw_span6.rw_scright {width: 100%;}
+	.basic_block_rs.respondo_weather.full-width .rw_span6.rw_scleft{width: 100%; margin-bottom: 15px;}
+	.basic_block_rs.respondo_weather.full-width .rw_span6.rw_3dailytemp {float: right;}
+	.rw_span6.rw_scleft .rw_span6.daily, .rw_span6.rw_scleft .rw_span6.rw_dailydet2 {width: 50%; float: left;}
+	.rw_span6.rw_sunrise, .rw_span6.rw_sunset {width: 50%; float: left !important;}
+	.rw_span6.rw_scleft span.rw_title {width: 100%; padding: 12px 0;}
+	.rw_daily3 {width: 100%;}
+	.rw_daily3 .rw_span6.rw_3date, .rw_span6.rw_3dailytemp {float: left; width: 50%;}
+	.basic_block_rs.respondo_weather.one-third .rw_span6.rw_3dailytemp {font-size: 11px;}
+	.basic_block_rs.respondo_weather.one-third .rw_span6.rw_scleft .rw_span6.daily .rw_dailydet {margin: 15px 0 0 5px;}
+	.basic_block_rs.respondo_weather.one-third .rw_span6.rw_sunrise, .basic_block_rs.respondo_weather.one-third .rw_span6.rw_sunset {width: 100% !important; line-height:15px;}
+	.basic_block_rs.respondo_weather.one-third .rw_span6.rw_sunrise img, .basic_block_rs.respondo_weather.one-third .rw_span6.rw_sunset img {margin: -5px 0 0 10px !important; float:left;}
+}
+@media screen and (max-width: 702px) {
+	.basic_block_rs.respondo_weather.full-width .rw_daily3 .rw_span6.rw_3date {width: 35% !important;}
+	.basic_block_rs.respondo_weather.full-width .rw_span6.rw_3dailytemp {float: right; width: 60%;}
+}
+@media screen and (max-width: 500px) {
+	.basic_block_rs.respondo_weather.full-width  .rw_span6.rw_scleft .rw_span6.daily .rw_temp {font-size: 46px !important;}
+}
+@media screen and (max-width: 400px) {
+	.rw_span6.rw_scleft .rw_span6.daily .rw_temp {font-size: 64px;}
+	.rw_span6.rw_scleft .rw_span6.daily .rw_dailydet {font-size: 14px; margin-left:15px;}
+	.span.rw_srss {font-size: 14px;}
+	.rw_span6.rw_sunrise, .rw_span6.rw_sunset {line-height: 31px;}
+	.rw_span6.rw_sunrise img, .rw_span6.rw_sunset img {width: 23px !important;}
+	.basic_block_rs.respondo_weather.one-quarter .rw_span6.rw_sunrise img, .rw_span6.rw_sunset img {width: 23px !important;}
+}
+@media screen and (max-width: 360px) {
+	.basic_block_rs.respondo_weather.full-width .rw_row-fluid .rw_span6, .basic_block_rs.respondo_weather.one-half .rw_row-fluid .rw_span6, .basic_block_rs.respondo_weather.one-third .rw_row-fluid .rw_span6, .basic_block_rs.respondo_weather.one-quarter .rw_row-fluid .rw_span6 {width: 100% !important;}
+	.basic_block_rs.respondo_weather.full-width .rw_span6.rw_scleft .rw_span6.daily .rw_temp, .basic_block_rs.respondo_weather.one-half .rw_span6.rw_scleft .rw_span6.daily .rw_temp, .basic_block_rs.respondo_weather.one-third .rw_span6.rw_scleft .rw_span6.daily .rw_temp, .basic_block_rs.respondo_weather.one-quarter .rw_span6.rw_scleft .rw_span6.daily .rw_temp {float: left !important; font-size: 36px !important; line-height: 80px; width: 50%;}
+	.basic_block_rs.respondo_weather.full-width .rw_span6.rw_scleft .rw_span6.daily .rw_dailydet, .basic_block_rs.respondo_weather.one-half .rw_span6.rw_scleft .rw_span6.daily .rw_dailydet, .basic_block_rs.respondo_weather.one-third .rw_span6.rw_scleft .rw_span6.daily .rw_dailydet, .basic_block_rs.respondo_weather.one-quarter .rw_span6.rw_scleft .rw_span6.daily .rw_dailydet {float: right; margin: 14px 0 0; text-align: right; font-size: 18px; width: 50% !important;}
+	.basic_block_rs.respondo_weather.full-width .rw_span6.rw_scleft .rw_span6.rw_dailydet2 img, .basic_block_rs.respondo_weather.one-half .rw_span6.rw_scleft .rw_span6.rw_dailydet2 img, .basic_block_rs.respondo_weather.one-third .rw_span6.rw_scleft .rw_span6.rw_dailydet2 img, .basic_block_rs.respondo_weather.one-quarter .rw_span6.rw_scleft .rw_span6.rw_dailydet2 img {float: left; margin: 20px 0 17px; max-width: 102px; width: 100px;}
+	.basic_block_rs.respondo_weather.full-width span.rw_srss, .basic_block_rs.respondo_weather.one-half span.rw_srss, .basic_block_rs.respondo_weather.one-third span.rw_srss, .basic_block_rs.respondo_weather.one-quarter span.rw_srss {float: right; font-size: 14px; height: 70px; margin: 30px 0 0; width: 50%;}
+	.basic_block_rs.respondo_weather.full-width .rw_span6.rw_sunrise, .basic_block_rs.respondo_weather.full-width .rw_span6.rw_sunset, .basic_block_rs.respondo_weather.one-half .rw_span6.rw_sunrise, .basic_block_rs.respondo_weather.one-half .rw_span6.rw_sunset, .basic_block_rs.respondo_weather.one-third .rw_span6.rw_sunrise, .basic_block_rs.respondo_weather.one-third .rw_span6.rw_sunset, .basic_block_rs.respondo_weather.one-quarter .rw_span6.rw_sunrise, .basic_block_rs.respondo_weather.one-quarter .rw_span6.rw_sunset {float: left !important; margin: 10px 0 0 !important; width: 100% !important; line-height:14px;}
+	.basic_block_rs.respondo_weather.full-width .rw_span6.rw_sunrise img, .basic_block_rs.respondo_weather.full-width .rw_span6.rw_sunset img, .basic_block_rs.respondo_weather.one-half .rw_span6.rw_sunrise img, .basic_block_rs.respondo_weather.one-half .rw_span6.rw_sunset img, .basic_block_rs.respondo_weather.one-third .rw_span6.rw_sunrise img, .basic_block_rs.respondo_weather.one-third .rw_span6.rw_sunset img, .basic_block_rs.respondo_weather.one-quarter .rw_span6.rw_sunrise img, .basic_block_rs.respondo_weather.one-quarter .rw_span6.rw_sunset img {margin: -5px auto 0 10px !important;}
+	.basic_block_rs.respondo_weather.full-width .rw_span6.rw_3dailytemp, .basic_block_rs.respondo_weather.one-half .rw_span6.rw_3dailytemp, .basic_block_rs.respondo_weather.one-third .rw_span6.rw_3dailytemp, .basic_block_rs.respondo_weather.one-quarter .rw_span6.rw_3dailytemp {width: 60% !important; font-size:14px;}
+	.basic_block_rs.respondo_weather.one-quarter .rw_span6.rw_3dailytemp {line-height: 46px; text-align: right;}
+	.basic_block_rs.respondo_weather.full-width .rw_span6.rw_3dailytemp img, .basic_block_rs.respondo_weather.one-half .rw_span6.rw_3dailytemp img, .basic_block_rs.respondo_weather.one-third .rw_span6.rw_3dailytemp img, .basic_block_rs.respondo_weather.one-quarter .rw_span6.rw_3dailytemp img {margin: 7px 0 7px 10px; width: 32px; float:right !important;}
+	.basic_block_rs.respondo_weather.one-half .rw_daily3 .rw_span6.rw_3date, .basic_block_rs.respondo_weather.one-third .rw_daily3 .rw_span6.rw_3date, .basic_block_rs.respondo_weather.one-quarter .rw_daily3 .rw_span6.rw_3date {width: 35% !important;}
+	
+	.basic_block_rs.respondo_weather.full-width .rw_daily3 .rw_span6.rw_3date, .basic_block_rs.respondo_weather.one-half .rw_daily3 .rw_span6.rw_3date, .basic_block_rs.respondo_weather.one-third .rw_daily3 .rw_span6.rw_3date {font-size: 14px;}
+	.basic_block_rs.respondo_weather.full-width .rw_daily3 .rw_span6.rw_3date small, .basic_block_rs.respondo_weather.one-half .rw_daily3 .rw_span6.rw_3date small, .basic_block_rs.respondo_weather.one-third .rw_daily3 .rw_span6.rw_3date small {font-size: 12px;}
+
+	.basic_block_rs.respondo_weather.one-half, .basic_block_rs.respondo_weather.one-third, .basic_block_rs.respondo_weather.one-quarter {margin: 0; width: 257px;}
+	
+	.rw_span6.rw_scleft .rw_span6.daily, .rw_span6.rw_scleft .rw_span6.rw_dailydet2 {width: 100%; float: none;}
+	.rw_span6.rw_scleft .rw_span6.daily .rw_temp {line-height: 100px;}
+	.rw_span6.rw_scleft .rw_span6.daily .rw_dailydet {margin: 0; text-align:center;}
+	.span.rw_srss {font-size:16px;}
+	.rw_span6.rw_sunrise img, .rw_span6.rw_sunset img {width: auto !important;}
+	aside.widget_weather_spark_pro .rw_span6.rw_scleft .rw_span6.daily .rw_dailydet {font-size: 14px; margin:24px 0 12px;}
+	
+	.basic_block_rs.respondo_weather.full-width .rw_span6.rw_scleft .rw_span6.daily {float: left; margin: 0; text-align: center; width: 50% !important;}
+	.basic_block_rs.respondo_weather.full-width .rw_span6.rw_scleft .rw_span6.daily .rw_temp {float: left; font-size: 30px !important; line-height: 70px; width: 100% !important;}
+	.basic_block_rs.respondo_weather.full-width .rw_span6.rw_scleft .rw_span6.daily .rw_dailydet {float: left; font-size:13px; margin: 24px 0 12px; text-align: center; width: 100% !important; line-height:22px;}
+	.basic_block_rs.respondo_weather.full-width .rw_span6.rw_scleft .rw_span6.rw_dailydet2 {float: right !important; text-align: center; width: 50% !important; margin:0;}
+	.basic_block_rs.respondo_weather.full-width .rw_span6.rw_scleft .rw_span6.rw_dailydet2 img {float: none; margin: 10px auto 0; width: 50%;}
+	.basic_block_rs.respondo_weather.full-width span.rw_srss {background: none; font-size: 11px; float: right; margin: 10px 0 0; padding: 0; width: 100%;}
+	.basic_block_rs.respondo_weather.full-width .rw_span6.rw_sunrise, .basic_block_rs.respondo_weather.full-width .rw_span6.rw_sunset {background: none repeat scroll 0 0 rgba(255, 255, 255, 0.1); float: left; margin: 0; width: 100%; padding:5px 0 0; line-height:22px;}
+	.basic_block_rs.respondo_weather.full-width .rw_span6.rw_sunrise img, .basic_block_rs.respondo_weather.full-width .rw_span6.rw_sunset img {margin: 0 5px 0 0 !important; width: 20px !important;}
+	.basic_block_rs.respondo_weather.full-width .rw_span6.rw_scright {margin: 15px 0 0;}
+
+}
+@media screen and (max-width: 320px) {
+	.rw_daily3 .rw_span6.rw_3date {float: none; padding: 0; text-align: left; width: 100%;}
+	.rw_span6.rw_3dailytemp {float: none; padding: 10px 0 0; text-align: right; width: 100%;}
+	.rw_span6.rw_3dailytemp img {float: right; margin: 2px 35px 0 0;}
+	.basic_block_rs.respondo_weather.one-half, .basic_block_rs.respondo_weather.one-third, .basic_block_rs.respondo_weather.one-quarter {width: 217px;}
+	.basic_block_rs.respondo_weather.full-width span.rw_srss, .basic_block_rs.respondo_weather.one-half span.rw_srss, .basic_block_rs.respondo_weather.one-third span.rw_srss, .basic_block_rs.respondo_weather.one-quarter span.rw_srss {margin: 25px 0 0;}
+	.basic_block_rs.respondo_weather.full-width .rw_span6.rw_scleft .rw_span6.rw_dailydet2 img, .basic_block_rs.respondo_weather.one-half .rw_span6.rw_scleft .rw_span6.rw_dailydet2 img, .basic_block_rs.respondo_weather.one-third .rw_span6.rw_scleft .rw_span6.rw_dailydet2 img, .basic_block_rs.respondo_weather.one-quarter .rw_span6.rw_scleft .rw_span6.rw_dailydet2 img {width: 85px; margin:25px 0 17px;}
+	.basic_block_rs.respondo_weather.full-width .rw_daily3 .rw_span6.rw_3date {padding: 0 0 0 3%; width:35% !important; float:left !important;}
+	.basic_block_rs.respondo_weather.full-width .rw_span6.rw_3dailytemp {float: right !important; padding: 0 3% 0 0; text-align: right; width: 55% !important;}
+	aside.widget_weather_spark_pro .rw_daily3 .rw_span6.rw_3date {margin-left: 4% !important; width:52% !important;}
+	aside.widget_weather_spark_pro .rw_span6.rw_3dailytemp {margin: 0 4% 0 0 !important;}
+}
+
+/* BOOTSTRAP STYLING */
+
+.rw_row-fluid .rw_span6 {
+  width: 48.93617021276595%;
+  *width: 48.88297872340425%;
+}
+[class*="rw_span"] {
+  float: left;
+  min-height: 1px;
+  margin-left: 20px;
+}
+.rw_row-fluid {
+  width: 100%;
+  *zoom: 1;
+}
+.rw_row-fluid:before,
+.rw_row-fluid:after {
+  display: table;
+  line-height: 0;
+  content: "";
+}
+.rw_row-fluid:after {
+  clear: both;
+}
+.rw_row-fluid [class*="rw_span"] {
+  display: block;
+  float: left;
+  width: 100%;
+  min-height: 30px;
+  margin-left: 2.127659574468085%;
+  *margin-left: 2.074468085106383%;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.rw_row-fluid [class*="rw_span"]:first-child {
+  margin-left: 0;
+}
+.rw_row-fluid .controls-row [class*="rw_span"] + [class*="rw_span"] {
+  margin-left: 2.127659574468085%;
+}
+[class*="rw_span"].hide,
+.rw_row-fluid [class*="rw_span"].hide {
+  display: none;
+}
+[class*="rw_span"].pull-right,
+.rw_row-fluid [class*="rw_span"].pull-right {
+  float: right;
+}
+input[class*="rw_span"],
+select[class*="rw_span"],
+textarea[class*="rw_span"],
+.uneditable-input[class*="rw_span"],
+.rw_row-fluid input[class*="rw_span"],
+.rw_row-fluid select[class*="rw_span"],
+.rw_row-fluid textarea[class*="rw_span"],
+.rw_row-fluid .uneditable-input[class*="rw_span"] {
+  float: none;
+  margin-left: 0;
+}
+.input-append input[class*="rw_span"],
+.input-append .uneditable-input[class*="rw_span"],
+.input-prepend input[class*="rw_span"],
+.input-prepend .uneditable-input[class*="rw_span"],
+.rw_row-fluid input[class*="rw_span"],
+.rw_row-fluid select[class*="rw_span"],
+.rw_row-fluid textarea[class*="rw_span"],
+.rw_row-fluid .uneditable-input[class*="rw_span"],
+.rw_row-fluid .input-prepend [class*="rw_span"],
+.rw_row-fluid .input-append [class*="rw_span"] {
+  display: inline-block;
+}
+.controls-row [class*="rw_span"] + [class*="rw_span"] {
+  margin-left: 20px;
+}
+.controls-row [class*="rw_span"],
+.rw_row-fluid .controls-row [class*="rw_span"] {
+  float: left;
+}
+table td[class*="rw_span"],
+table th[class*="rw_span"],
+.rw_row-fluid table td[class*="rw_span"],
+.rw_row-fluid table th[class*="rw_span"] {
+  display: table-cell;
+  float: none;
+  margin-left: 0;
+}
+
+
+
+@media (min-width: 1200px) {
+  [class*="rw_span"] {
+    float: left;
+    min-height: 1px;
+    margin-left: 30px;
+  }
+  .rw_row-fluid {
+    width: 100%;
+    *zoom: 1;
+  }
+  .rw_row-fluid [class*="rw_span"] {
+    display: block;
+    float: left;
+    width: 100%;
+    min-height: 30px;
+    margin-left: 2.564102564102564%;
+    *margin-left: 2.5109110747408616%;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  .rw_row-fluid [class*="rw_span"]:first-child {
+    margin-left: 0;
+  }
+  .rw_row-fluid .controls-row [class*="rw_span"] + [class*="rw_span"] {
+    margin-left: 2.564102564102564%;
+  }
+  .rw_row-fluid .rw_span6 {
+    width: 48.717948717948715%;
+    *width: 48.664757228587014%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+  .rw_row-fluid .rw_span6 {
+    width: 48.61878453038674% !important;
+    *width: 48.56559304102504% !important;
+  }
+  .rw_row-fluid [class*="rw_span"] {
+    display: block;
+    float: left;
+    width: 100%;
+    min-height: 30px;
+    margin-left: 2.7624309392265194%;
+    *margin-left: 2.709239449864817%;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  .rw_row-fluid [class*="rw_span"]:first-child {
+    margin-left: 0;
+  }
+  .rw_row-fluid .controls-row [class*="rw_span"] + [class*="rw_span"] {
+    margin-left: 2.7624309392265194%;
+  }
+}
+
+@media (max-width: 767px) {
+  [class*="rw_span"],
+  .uneditable-input[class*="rw_span"],
+  .rw_row-fluid [class*="rw_span"] {
+    display: block;
+    float: none;
+    width: 100%;
+    margin-left: 0;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+}
+
+
+/* Shortcode Options Styling (WP Dashboard) */
+.respondo-shortcode-dialog-section{padding:30px;}
+.respondo-shortcode-dialog-section .rs-weather-options {width: 33%; float:left; margin-bottom:10px;}
+.respondo-shortcode-dialog-section .rs-weather-options-half {width: 50%; float:left; margin-bottom:10px;}
+.respondo-shortcode-dialog-section .rs-weather-options-fw {width: 100%; float:none; margin-bottom:10px;}
